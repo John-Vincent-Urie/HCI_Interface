@@ -11,12 +11,14 @@ body, html {
     height: 100%;
 }
 
+
 body {
   background-image: url('pic/Bokidnon.png');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
+
 
 
 @keyframes appear {
@@ -92,16 +94,7 @@ body {
     font-weight: 700;
 }
 
-.navbar .logo .small {
-    font-size: 14px;
-    font-weight: 400;
-    display: block;
-}
 
-.navbar .logo .large {
-    font-size: 28px;
-    font-weight: 700;
-}
 
 
 .nav-links {
