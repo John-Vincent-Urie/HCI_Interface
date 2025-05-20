@@ -36,10 +36,11 @@ body {
     animation-range: entry 0% cover 40%;
 }
 
-.text-grid {
+.card {
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
+    z-index: 1;
 }
 
 
@@ -250,7 +251,7 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .card img {
@@ -315,11 +316,13 @@ body {
 }
 
 .read-article-link{
-    margin-top: 10px;
-    background-color: #ffffff;  
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #fffefe;  
     padding: 12px 24px;
     height: auto;
-    width: 29%;
+    width: 30%;
     border: none;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
@@ -327,7 +330,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 16px;
-    z-index: 10;
+    z-index: 2;
     color: #070707;
 
 }
@@ -368,7 +371,7 @@ body {
     text-align: right;
     
 }
-.text-grid2 button{
+.text-grid2 a{
     position: relative;
     right:-420px;
 }

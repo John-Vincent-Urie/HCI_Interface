@@ -1,0 +1,100 @@
+/* Basic Reset & Body Styles */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+/* Main Content - Hero Section */
+.main-content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-text {
+    margin-bottom: 50px;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: #333;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+.hero-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #555;
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.hero-image-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.hero-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-overlay-text {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px; /* Adjust as needed */
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.image-overlay-text .lanawan-text {
+    color: #333; /* Darker color for Lanawan */
+    margin-right: 5px;
+}
+
+.image-overlay-text .heart-icon {
+    color: #ff0000; /* Red color for heart */
+    font-size: 35px; /* Slightly larger heart */
+    margin: 0 5px;
+}
+
+.image-overlay-text .nature-text {
+    color: #333; /* Darker color for Nature */
+    margin-left: 5px;
+}
+
+.long-text-section {
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.7;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.long-text-section p {
+    white-space: pre-line;
+}
