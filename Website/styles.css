@@ -120,11 +120,6 @@ body {
 }
 
 
-.search-container.active .search-input {
-    width: 200px;
-    opacity: 1;
-}
-
 
 .hero {
     height: 100vh;
